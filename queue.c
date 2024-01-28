@@ -46,12 +46,14 @@ void insert()
     else
     {
         if (front == - 1)
-        /*If queue is initially empty */
-        front = 0;
-        printf("Inset the element in queue : ");
-        scanf("%d", &add_item);
-        rear = rear + 1;
-        queue_array[rear] = add_item;
+        {
+          /*If queue is initially empty */
+          front = 0;
+        }
+          printf("Inset the element in queue : ");
+          scanf("%d", &add_item);
+          rear = rear + 1;
+          queue_array[rear] = add_item;        
     }
 } /* End of insert() */
  
